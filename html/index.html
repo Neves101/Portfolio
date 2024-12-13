@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../src/assets/main.css">
+    <link rel="stylesheet" href="../src/assets/index.css">
+    <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <header>
+      <nav>
+        <div class="title">
+        <h1>
+          <a href="index.html">Lucas Neves</a>
+        </h1>
+        </div>
+
+        <ul class="pages">
+          <li><a href="404.html">Présentation</a></li>
+          <li><a href="404.html">Créations</a></li>
+          <li><a href="404.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <section id="presentation">
+    <h2>
+      Bonjour, Je m'appelle Lucas Neves
+    </h2>
+
+    <p>Je suis un Développeur full-stack 
+    actuellement basé à Nice, France</p>
+  
+  </section>
+
+  <section id="qualités">
+    <ul>
+      <li>Capacité à résoudre des problèmes : <br>
+      J'aime décortiquer les problèmes complexes et trouver des solutions efficaces. 
+      Chaque bug est un défi qui me pousse à aller plus loin et à améliorer le système.</li>
+
+      <li>Esprit d'apprentissage : <br>
+      Je suis toujours curieux d’apprendre de nouvelles technologies et de rester à jour dans un domaine en perpétuelle évolution. 
+      Cela me permet d'apporter des solutions innovantes.</li>
+
+      <li>Attention au détails : <br>
+      J'accorde une grande importance à la précision dans mon travail.
+      Un code propre, 
+      bien organisé et sans erreurs est pour moi essentiel,
+      tant pour l'efficacité que pour la satisfaction personnelle.</li>
+    </ul>
+  </section>
+
+  <section id="realisations">
+    <H2>Mes réalisations</H2>
+
+    <div class="modal-container">
+      <div class="overlay modal-trigger"></div>
+
+      <div class="modal">
+        <button class="close-modal 
+        modal-trigger">X</button>
+        <h1>Création de CV</h1>
+        <p>Document créé le 03/08/2024</p>
+        <h3>Technologies utilisées</h3>
+        <nav>
+          <ul>
+          <li>HTML</li>
+          <li>css</li>
+          </ul>
+        </nav>
+        <form style="display: inline;" action="../Réalisations/CV/Index.html" target="_blank">
+          <button>Cliquez pour voir</button>
+        </form>
+
+        <h1>Dynamiser un espace commentaire</h1>
+        <p>Document créé le 30/09/2024</p>
+        <h3>Technologies utilisées</h3>
+        <nav>
+          <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>        
+          </ul>
+        </nav>
+        <form style="display: inline;" action="../Réalisations/DynamiserUnEspaceDeCommentaires_DocumentsDevoir/index.html" target="_blank">
+        <button>Cliquez pour voir</button>
+        </form>
+
+        <H1>Faire un cahier des charges</H1>
+        <p>Document créé le 24/08/2024</p>
+        <h3>technologie utilisée</h3>
+        <nav>
+          <ul>
+            <li>Word
+          </ul>
+        </nav>
+        <form style="display: inline;" action="../Réalisations/DynamiserUnEspaceDeCommentaires_DocumentsDevoir/index.html" target="_blank">
+          <button>Cliquez pour voir</button>
+        </form>
+
+      </div>
+
+    </div>
+  <div class="modal-btn modal-trigger">
+
+    <h4>
+      Création de CV
+    </h4>
+    <img src="../src/assets/CreationCv.png" alt="creations de cv">
+
+  </div>
+
+  <div class="modal-btn modal-trigger"> 
+
+    <h4>
+      Dynamiser un espace commentaire
+    </h4>
+    <img src="../src/assets/DynamiserEspaceCommentaire.jfif" alt="telephone avec des interactions">
+
+  </div>
+  
+  <div class="modal-btn modal-trigger">
+
+    <h4>
+      Faire un cahier des charges
+    </h4>
+    <img src="../src/assets/CahierDesCharges.jfif" alt="cahier des charges">
+  </div>
+  </section>
+  <section id="contact">
+
+  <div class="form-container">
+    <h1>Contactez-nous</h1>
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+    <p id="responseMessage"></p>
+  </div>
+
+  </section>
+  <Footer>
+    <div class="socialicons">
+    <a href="https://www.linkedin.com/feed/" target="_blank">
+        <img src="../src/assets/LogoLinkedin.png" alt="logo linkedin">
+    </a>
+    <a href="https://github.com/" target="_blank">
+        <img src="../src/assets/github.jfif" alt="logo github">
+    </a>  
+    </div>
+
+    <div class="datetime">
+    <p>18 novembre 2024</p>  
+    </div>
+</Footer>
+<script src="../script.js"></script>
+</body>
+</html>
